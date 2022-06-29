@@ -41,7 +41,7 @@ function AppFAQ() {
               omittam evertitur ad, meliore gubergren voluptatum at mel.
             </p>
           </Panel>
-          <Panel header="Can I manage multiple task?" key="1">
+          <Panel header="Can I manage multiple task?" key="4">
             <p>
               Mentitum offendit appareat nam ex, mea timeam nonumes pertinacia
               ne. Autem altera an vix, cu soluta aliquid pro, ne sit natum
@@ -51,7 +51,7 @@ function AppFAQ() {
               velit facete nec.
             </p>
           </Panel>
-          <Panel header="How can I change my password?" key="2">
+          <Panel header="How can I change my password?" key="5">
             <p>
               Usu dolorem ceteros te. Veri exerci ne vix, modo ignota an qui. Ne
               oblique antiopam quo. Ex quem saepe cum, temporibus comprehensam
@@ -59,7 +59,7 @@ function AppFAQ() {
               argumentum sea, est tale error nihil ad.
             </p>
           </Panel>
-          <Panel header="How to manage my account?" key="3">
+          <Panel header="How to manage my account?" key="6">
             <p>
               Erant vitae alterum in mel, viris rationibus argumentum eu sea.
               Per ei diceret constituto, ei qui simul intellegam, ut eos dolor
