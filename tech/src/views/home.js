@@ -6,6 +6,7 @@ import AppCard from "../components/home/fearture.js";
 import AppWork from "../components/home/works.js";
 import AppFAQ from "../components/home/faq.js";
 import AppPricing from "../components/home/pricing.js";
+import AppContact from "../components/home/contact.js";
 
 function AppHome() {
   return (
@@ -16,6 +17,7 @@ function AppHome() {
       <AppWork />
       <AppFAQ />
       <AppPricing />
+      <AppContact />
     </div>
   );
 }
