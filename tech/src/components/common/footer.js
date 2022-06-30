@@ -12,34 +12,34 @@ function AppFooter() {
         <ul className="socials">
           <li>
             <a href="https://facebook.com">
-              <i class="fab fa-facebook-f"></i>
+              <i className="fab fa-facebook-f"></i>
             </a>
           </li>
           <li>
             <a href="https://twitter.com">
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
             </a>
           </li>
           <li>
             <a href="https://linkedin.com">
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
           </li>
           <li>
             <a href="https://pinterest.com">
-              <i class="fab fa-pinterest-p"></i>
+              <i className="fab fa-pinterest-p"></i>
             </a>
           </li>
           <li>
             <a href="https://instagram.com">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </li>
         </ul>
         <div className="copyright">Copyright © 2020 Tech</div>
         <BackTop>
           <div className="goTop">
-            <i class="fas fa-arrow-circle-up"></i>
+            <i className="fas fa-arrow-circle-up"></i>
           </div>
         </BackTop>
       </div>

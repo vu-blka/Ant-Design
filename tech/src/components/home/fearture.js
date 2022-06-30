@@ -11,7 +11,7 @@ const { Meta } = Card;
 
 function AppCard() {
   return (
-    <div className="block aboutBlock">
+    <div id="feature" className="block aboutBlock">
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Key Features and Benefits</h2>
@@ -21,12 +21,12 @@ function AppCard() {
         </div>
         <div className="contentHolder"></div>
         <Row gutter={[16, 16]}>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt="Modern Design" src={image1} />}>
               <Meta title="Modern Design" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img alt="Clean and Elegant" src={image2} />}
@@ -34,12 +34,12 @@ function AppCard() {
               <Meta title="Clean and Elegant" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt="Great Support" src={image3} />}>
               <Meta title="Great Support" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img alt="Easy to customize" src={image4} />}
@@ -47,7 +47,7 @@ function AppCard() {
               <Meta title="Easy to customize" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img alt="Unlimited Features" src={image5} />}
@@ -55,7 +55,7 @@ function AppCard() {
               <Meta title="Unlimited Features" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt="Advanced options" src={image6} />}>
               <Meta title="Advanced options" />
             </Card>

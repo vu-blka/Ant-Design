@@ -4,7 +4,7 @@ const { Panel } = Collapse;
 
 function AppFAQ() {
   return (
-    <div className="block faqBlock">
+    <div id='faq' className="block faqBlock">
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Frequently Asked Questions</h2>
@@ -78,7 +78,7 @@ function AppFAQ() {
             voluptatibus ab excepturi nobis! Porro!
           </p>
           <Button type="primary" size="large">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
             Email your question
           </Button>
         </div>
